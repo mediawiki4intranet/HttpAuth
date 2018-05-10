@@ -83,6 +83,7 @@ function efHttpAuthUserLoadFromSession($user_obj, &$result)
         }
         else
         {
+            global $wgVersion, $wgServer, $wgScriptPath;
 ?><html>
 <head><title>401 Unauthorized</title></head>
 <body>
